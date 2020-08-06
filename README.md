@@ -2,6 +2,6 @@
 
 Hey, I'm Allison (⌐■‿■)
 
-Welcome to my page 
+This is my page 
 
 
