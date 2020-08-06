@@ -1,0 +1,26 @@
+body {
+    font-family: 'Recursive', sans-serif;
+}
+
+h1 {
+    color: #f8b195;
+    text-shadow: 3px 2px #fed8b1;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#magic {
+    animation: color-action 4s infinite alternate;
+}
+
+@keyframes color-action {
+    0% {color: #f8b195}
+    50% {color: #1e90ff}
+    100% {color: #9400d3}
+}
