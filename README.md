@@ -1,7 +1,5 @@
 # alfister.github.io
 
-Hey, I'm Allison (⌐■‿■)
+Hey, I'm Allison. (⌐■‿■)
 
-This is my page 
-
-
+This is my page!
