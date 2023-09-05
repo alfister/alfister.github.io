@@ -26,3 +26,17 @@ p {
     50% {color: #1e90ff}
     100% {color: #9400d3}
 }
+
+a { color: #03a9f4; }
+a:hover { color: #9400d3; }
+a:focus { color: #9400d3; }
+
+.resume {
+    color: #03a9f4;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#arrow {
+    font-size: 22px;
+}
