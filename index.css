@@ -21,7 +21,7 @@ h2 {
     font-variation-settings: 'slnt' -15;
 }
 
-#magic {
+.magic {
     animation: color-action 4s infinite alternate;
 }
 
