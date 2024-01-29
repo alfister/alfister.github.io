@@ -8,6 +8,7 @@
         <link rel="stylesheet"
               href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL@-15..0,300..700,0..1&display=swap">
         <link rel="stylesheet" href="index.css">
+        <script src="https://unpkg.com/feather-icons"></script>
         <title>Allison Fister</title>
     </head>
     <body>
@@ -44,5 +45,24 @@
         <footer>
             GitHub, LinkedIn, Email
         </footer>
+
+        <button onclick="toggleMode()"><i id="mode" data-feather="moon"></i></button>
+
+        <script>
+            feather.replace();
+
+            function toggleMode() {
+                let body = document.body;
+                body.classList.toggle("dark-mode");
+
+                let mode = body.classList.contains("dark-mode") ? "dark" : "light";
+                let icon = document.getElementById("mode");
+
+                mode === "dark" ? 
+                    icon.innerHTML = feather.icons["sun"].toSvg() : 
+                    icon.innerHTML = feather.icons["moon"].toSvg();
+            }
+        </script>
+
     </body>
 </html>
