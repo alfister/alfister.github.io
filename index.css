@@ -54,9 +54,9 @@ button {
 }
 
 .magic {
-    animation: color-action 8s infinite alternate;
-    /* text-decoration: underline;
-    text-decoration-color: #03a9f4; */
+    /* animation: color-action 8s infinite alternate; */
+    text-decoration: underline;
+    text-decoration-color: #03a9f4;
 }
 
 @keyframes color-action {

@@ -62,8 +62,8 @@
                 let icon = document.getElementById("mode");
 
                 mode === "dark" ? 
-                    icon.innerHTML = feather.icons["sun"].toSvg() : 
-                    icon.innerHTML = feather.icons["moon"].toSvg();
+                    icon.innerHTML = feather.icons["sun"].toSvg({ "color": "#f2f5f2" }) : 
+                    icon.innerHTML = feather.icons["moon"].toSvg({ "color": "#262926" });
             }
         </script>
 
