@@ -2,8 +2,8 @@ body {
     position: relative;
     margin: 5% 10%;
     font-family: 'Recursive', sans-serif;
-    background-color: #f2f5f2;
-    color: #262926;
+    background-color: #f7f7f7;
+    color: #252626;
 }
 
 header {
@@ -48,9 +48,13 @@ button {
     cursor: pointer;
 }
 
+::selection {
+    background: #9400d3;
+}
+
 .dark-mode {
-    background-color: #262926;
-    color: #f2f5f2;
+    background-color: #252626;
+    color: #f7f7f7;
 }
 
 .magic {
@@ -82,4 +86,11 @@ button {
 
 #icon-bar button {
     margin: 0 0 0 36px;
+}
+
+#contact {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 3rem;
+    font-variation-settings: 'slnt' -15;
 }
