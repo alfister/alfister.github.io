@@ -31,7 +31,7 @@ ul {
 }
 
 ul li, p {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
@@ -55,6 +55,8 @@ button {
 
 .magic {
     animation: color-action 8s infinite alternate;
+    /* text-decoration: underline;
+    text-decoration-color: #03a9f4; */
 }
 
 @keyframes color-action {
@@ -63,6 +65,10 @@ button {
     50% {color: #03a9f4}
     95% {color: #9400d3}
     100% {color: #9400d3}
+}
+
+.description {
+    font-weight: 300;
 }
 
 #icon-bar {
@@ -74,5 +80,5 @@ button {
 }
 
 #icon-bar button {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 36px;
 }
