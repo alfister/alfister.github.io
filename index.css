@@ -1,9 +1,14 @@
 body {
     position: relative;
-    margin: 7% 10%;
+    margin: 5% 10%;
     font-family: 'Recursive', sans-serif;
     background-color: #f2f5f2;
     color: #262926;
+}
+
+header {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -21,23 +26,6 @@ h2 {
     font-variation-settings: 'slnt' -15;
 }
 
-.magic {
-    animation: color-action 4s infinite alternate;
-}
-
-@keyframes color-action {
-    0% {color: #f8b195}
-    50% {color: #1e90ff}
-    100% {color: #9400d3}
-}
-
-a { 
-    color: #03a9f4;
-    text-decoration: none;
-}
-a:hover { color: #9400d3; }
-a:focus { color: #9400d3; }
-
 ul {
     list-style: "- " outside none;
 }
@@ -47,7 +35,44 @@ ul li, p {
     font-size: 20px;
 }
 
+a { 
+    color: #03a9f4;
+    text-decoration: none;
+}
+a:hover { color: #9400d3; }
+a:focus { color: #9400d3; }
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .dark-mode {
     background-color: #262926;
     color: #f2f5f2;
+}
+
+.magic {
+    animation: color-action 8s infinite alternate;
+}
+
+@keyframes color-action {
+    0% {color: #f8b195}
+    5% {color: #f8b195}
+    50% {color: #03a9f4}
+    95% {color: #9400d3}
+    100% {color: #9400d3}
+}
+
+#icon-bar {
+    padding: 18px 0 0 72px;
+}
+
+#icon-bar a {
+    margin: 0 0 0 5px;
+}
+
+#icon-bar button {
+    margin: 0 0 0 30px;
 }
