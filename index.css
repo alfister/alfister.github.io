@@ -37,7 +37,7 @@ ul li, p {
 }
 
 a { 
-    color: #03a9f4;
+    color: #0096db;
     text-decoration: none;
 }
 a:hover { color: #9400d3; }
@@ -62,13 +62,13 @@ button {
 .magic {
     /* animation: color-action 8s infinite alternate; */
     text-decoration: underline;
-    text-decoration-color: #03a9f4;
+    text-decoration-color: #0096db;
 }
 
 @keyframes color-action {
     0% {color: #f8b195}
     5% {color: #f8b195}
-    50% {color: #03a9f4}
+    50% {color: #0096db}
     95% {color: #9400d3}
     100% {color: #9400d3}
 }
