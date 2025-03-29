@@ -50,8 +50,8 @@ button {
 }
 
 ::selection {
-    background: #9400d3;
-    color: #f7f7f7;
+    background: #fff200;
+    color: #252626;
 }
 
 .dark-mode {
