@@ -49,6 +49,14 @@ button {
     cursor: pointer;
 }
 
+svg {
+    transition: transform 0.3s;
+}
+
+svg:hover {
+    transform: translateY(-0.25rem);
+}
+
 ::selection {
     background: #fff200;
     color: #252626;
