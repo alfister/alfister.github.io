@@ -49,17 +49,19 @@ button {
     cursor: pointer;
 }
 
-svg {
-    transition: transform 0.3s;
-}
-
-svg:hover {
-    transform: translateY(-0.25rem);
-}
-
 ::selection {
     background: #fff200;
     color: #252626;
+}
+
+svg {
+    transition: transform 0.3s;
+}
+.social:hover {
+    transform: translateY(-0.25rem);
+}
+.theme:hover {
+    transform: rotate(30deg);
 }
 
 .dark-mode {
@@ -74,11 +76,11 @@ svg:hover {
 }
 
 @keyframes color-action {
-    0% {color: #f8b195}
-    5% {color: #f8b195}
-    50% {color: #0096db}
-    95% {color: #9400d3}
-    100% {color: #9400d3}
+    0% { color: #f8b195 }
+    5% { color: #f8b195 }
+    50% { color: #0096db }
+    95% { color: #9400d3 }
+    100% { color: #9400d3 }
 }
 
 .description {
@@ -89,11 +91,9 @@ svg:hover {
 #icon-bar {
     padding: 18px 0 0 72px;
 }
-
 #icon-bar a {
     margin: 0 0 0 5px;
 }
-
 #icon-bar button {
     margin: 0 0 0 36px;
 }
@@ -104,7 +104,11 @@ svg:hover {
     padding: 0 3rem;
     font-variation-settings: 'slnt' -15;
 }
-
 #contact svg {
     vertical-align: top;
+    transition: transform 0.5s;
+}
+
+#smile:hover {
+    transform: rotateX(180deg);
 }
