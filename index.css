@@ -37,7 +37,7 @@ ul li, p {
 }
 
 a { 
-    color: #0096db;
+    color: #003edc;
     text-decoration: none;
 }
 a:hover { color: #9400d3; }
@@ -64,15 +64,10 @@ svg {
     transform: rotate(30deg);
 }
 
-.dark-mode {
-    background-color: #252626;
-    color: #f7f7f7;
-}
-
 .magic {
     /* animation: color-action 8s infinite alternate; */
     text-decoration: underline;
-    text-decoration-color: #0096db;
+    text-decoration-color: #003edc;
 }
 
 @keyframes color-action {
@@ -81,6 +76,21 @@ svg {
     50% { color: #0096db }
     95% { color: #9400d3 }
     100% { color: #9400d3 }
+}
+
+.dark-mode {
+    background-color: #252626;
+    color: #f7f7f7;
+}
+.dark-mode a {
+    color: #0fb3ff;
+    text-decoration: none;
+}
+.dark-mode a:hover { color: #9400d3; }
+.dark-mode a:focus { color: #9400d3; }
+.dark-mode .magic {
+    text-decoration: underline;
+    text-decoration-color: #0fb3ff;
 }
 
 .description {
